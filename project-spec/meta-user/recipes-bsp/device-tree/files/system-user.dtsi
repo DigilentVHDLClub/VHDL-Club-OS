@@ -1,3 +1,13 @@
 /include/ "system-conf.dtsi"
 / {
 };
+
+&axi_gpio_0
+{
+	gpio-line-names = "btn0", "btn1", "btn2", "btn3", "sw0", "sw1", "sw2", "sw3";
+};
+
+&axi_gpio_1
+{
+	gpio-line-names = "led0", "led1", "led2", "led3";
+};
