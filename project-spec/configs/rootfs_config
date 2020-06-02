@@ -3945,6 +3945,7 @@ CONFIG_imagefeature-hwcodecs=y
 #
 # user packages 
 #
+CONFIG_libuio=y
 
 #
 # PetaLinux RootFS Settings
