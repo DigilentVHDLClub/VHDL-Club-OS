@@ -11,3 +11,22 @@
 {
 	gpio-line-names = "led0", "led1", "led2", "led3";
 };
+
+&myip_0
+{
+    compatible = "generic-uio";
+};
+
+ 
+
+&myip_1
+{
+    compatible = "generic-uio";
+};
+
+ 
+
+&myip_2
+{
+    compatible = "generic-uio";
+};
